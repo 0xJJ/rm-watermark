@@ -5,7 +5,7 @@ to improve readability and accessibility.
 
 ## Usage
 
-`./rm-watermark.py input output`
+`rm-watermark input output`
 
 ## Watermarks
 The software has only been tested on a PDF where the watermarks seem to be
