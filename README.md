@@ -1,21 +1,21 @@
 # rm-watermark
 
-rm-watermark is a little python script to remove annoying watermarks from pdfs
-for better readability and accessibility.
+`rm-watermark` is a small Python script that removes annoying watermarks from PDFs
+to improve readability and accessibility.
 
 ## Usage
 
-./rm-watermark.py input output
+`./rm-watermark.py input output`
 
 ## Watermarks
-The software was only tested with a pdf, where the watermarks seam to be created
-by some Adobe software. If you like to have support for pdfs which are not
-working with this script, patches and example pdfs are always welcome. 
+The software has only been tested on a PDF where the watermarks seem to be
+created by some Adobe software. If you want support for PDFs that do not work
+with this script, patches and sample PDFs are always welcome. 
 
 ## Dependencies
-Only direct dependency is PyMuPDF. Hence libmupdf and its python bindings are
-also required.
+The only direct dependency is [`PyMuPDF`](https://github.com/pymupdf/PyMuPDF).
+So [`libmupdf`](https://mupdf.com/) and its Python bindings are also required.
 
 ## License
 
-As PyMuPDF is used, the script is licensed under the GNU Affero GPL 3.0.
+As `PyMuPDF` is used, the script is licensed under the GNU Affero GPL 3.0.
